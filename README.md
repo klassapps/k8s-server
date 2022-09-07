@@ -1,4 +1,4 @@
-# Provisioning script to setup new instance of ubuntu server
+# Provisioning script to setup new instance of ubuntu server 18.04
 ## Clone and run
 * `mkdir /dockerdata && cd /dockerdata` all custom data lives *only* in that folder
 * `git clone https://github.com/terbooter/new-server.git`

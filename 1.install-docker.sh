@@ -1,3 +1,5 @@
+#!/bin/bash
+
 apt-get install -y mc ncdu htop sysstat iftop glances
 
 sudo apt-get update
@@ -7,7 +9,7 @@ sudo apt-get install -y \
     ca-certificates \
     curl \
     software-properties-common \
-    zsh
+    zsh 
 
 # Make zsh default shell
 chsh -s $(which zsh)
@@ -24,6 +26,8 @@ sudo add-apt-repository \
    stable"
 
 sudo apt-get update
+
+sudo timedatectl set-timezone UTC
 
 # Old production version
 #sudo apt-get install -y docker-ce=18.06.3~ce~3-0~ubuntu
