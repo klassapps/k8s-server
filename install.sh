@@ -1,3 +1,3 @@
-./install-docker.sh
-./install-k8s.sh
-./install-gluster.sh
+./1.install-docker.sh
+./2.install-k8s.sh
+./3.install-gluster.sh
